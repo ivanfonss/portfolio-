@@ -1,0 +1,51 @@
+.formulario{
+    background-color: var(--azul);
+    margin: 1em 0;
+    padding: 1em 0;
+    
+}
+.formulario div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 0.5em 2em;
+    background-color:var(--branco-texto);
+    margin: 1em 2em;
+    border-radius: 0.5em;
+}
+.invisivel{
+    display: none;
+
+    color: var(--cinza-claro);
+    font-size: 1.2em;
+
+}
+.formulario input, .formulario textarea{
+    background-color: var(--branco-texto);
+    outline: none;
+    resize: none;
+    border: none;
+    font-size: 1.2em;
+    font-family: var(--pixel2);
+    color: var(--cinza-claro);
+}
+.formulario__botao{
+   
+    background-color: var(--azul);
+    border: 2px solid var(--amarelo);
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--amarelo);
+    font-size: 1.2em;
+    font-family: var(--pixel2);
+    padding: 0.5em 1.5em;
+
+}
+
+@media screen and (min-width: 1023px) {
+    .formulario{
+        border-radius: 1em;
+        
+    }
+    
+}

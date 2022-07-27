@@ -1,0 +1,51 @@
+
+.formacao__titulo{
+    font-size: 2em;
+    text-shadow: 0.05em 0.05em 0.05em var(--azul-titulo);
+    padding: 0.5em;
+}
+.formacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.formacao__item{
+    width: 9em;
+    height: 9em;
+    background-image: url(../img/alura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5em;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.5em;
+    border-radius: 1em;
+    text-align: start;
+}
+
+@media screen and (min-width: 768px) {
+    .formacao{
+        padding: 2em 1em;
+    }
+    .formacao__titulo{
+        font-size: 3em;
+    }
+    .formacao__texto{
+        font-size: 1.2em;
+
+    }
+    .formacao__item{
+        width: 11em;
+        height: 11em;
+    }
+
+}
+@media screen and (min-width: 1300px){
+    .formacao{
+        width: 1024px;
+        margin: 0 auto;
+    }
+} 
